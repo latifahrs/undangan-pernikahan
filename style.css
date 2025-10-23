@@ -437,6 +437,39 @@ html {
  font-size: 65%;
 } 
 
+.hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h4 {
+    font-size: 1.4rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .jam-digital-malasngoding {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+  }
+
+  .kotak {
+    width: 80px;
+    height: 80px;
+  }
+
+  .jam-digital-malasngoding p {
+    font-size: 24px;
+  }
+
+  .kotak span {
+    font-size: 12px;
+  }
+
+  
 .mynavbar .nav-link{
    font-size: 2rem;
    text-align: center;
@@ -506,5 +539,13 @@ html {
  font-size: 60%;
 } 
 
+.hero h1 {
+    font-size: 3rem;
+  }
 
+  .kotak {
+    width: 70px;
+    height: 70px;
+  }
 }
+
