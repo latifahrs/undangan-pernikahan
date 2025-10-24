@@ -511,6 +511,7 @@ html {
     box-shadow: 0 0 0 2px #c9c9ff;
   }
 
+  .timeline-item.left .timeline-panel,
   .timeline-item.right .timeline-panel {
     float: none;
     margin: 1rem auto;
@@ -545,5 +546,6 @@ html {
     height: 70px;
   }
 }
+
 
 
