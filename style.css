@@ -511,24 +511,21 @@ html {
     box-shadow: 0 0 0 2px #c9c9ff;
   }
 
-  /* Panel di kanan */
-  .timeline-panel {
-    width: calc(100% - 120px);
+  .timeline-item.right .timeline-panel {
     float: none;
-    margin: 0;
-    text-align: left;
-    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
   }
 
   /* Hilangkan segitiga di mobile */
-  .timeline-item.left .timeline-panel::after,
-  .timeline-item.right .timeline-panel::after {
+   .timeline-panel::after {
     display: none;
   }
 
   /* Jarak antar item */
   .timeline-item {
-    margin-bottom: 3rem;
+   display: flex;
+   justify-content: center;
   }
 }
 
@@ -548,4 +545,5 @@ html {
     height: 70px;
   }
 }
+
 
